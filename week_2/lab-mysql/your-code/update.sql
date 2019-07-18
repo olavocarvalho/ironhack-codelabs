@@ -2,20 +2,20 @@ USE lab_mysql;
 
 UPDATE salespersons
 SET
-    [store] = 'Miami'
+    `store` = 'Miami'
 WHERE 'store' = 'Mimia';
 
 UPDATE customers
 SET
-    [email] = 'ppicasso@gmail.com'
+    `email` = 'ppicasso@gmail.com'
 WHERE 'name' = 'Pablo Picasso';
 
 UPDATE customers
 SET
-    [email] = 'lincoln@us.gov'
+    `email` = 'lincoln@us.gov'
 WHERE 'name' = 'Abraham Lincoln';
 
 UPDATE customers
 SET
-    [email] = 'hello@napoleon.me'
+    `email` = 'hello@napoleon.me'
 WHERE 'name' = 'Napoléon Bonaparte';
